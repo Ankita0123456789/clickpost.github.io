@@ -1,0 +1,7 @@
+body {
+  background-image: url(../public/asset/image/galaxy.jpg);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
