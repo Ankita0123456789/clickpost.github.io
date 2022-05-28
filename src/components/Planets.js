@@ -21,15 +21,6 @@ function Planets() {
     loadPlanets();
   }, []);
 
-  const population = Planets.map((x) => x.population);
-  console.log(population);
-  const planWidth = population.map((str) => {
-    return Number(str);
-  });
-  console.log(planWidth);
-  // const width = planWidth.map(x => x/1000)
-  // console.log(width);
-
   return (
     <div className="flex flex-col justify-center items-center ">
       <div className="my-7 text-2xl w-96 text-center text-white bg-purple-500 p-3 m-auto border-2 rounded-md shadow-md border-top lg:max-w-md">
